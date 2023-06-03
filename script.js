@@ -163,6 +163,7 @@ function enableCopyButton(){
 
     copyButton.style.display="block";
 }
+
 function copyOutput(){
     navigator.clipboard.writeText(output);
 }

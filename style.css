@@ -15,21 +15,30 @@
 
 *{
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
 }
 
-
-
+main{
+    padding: 40px;
+    height: 100%;
+}
 .mainSection p{
     font-size: var(--small);
     color: var(--black);
 }
 .mainSection textarea{
     width: 100%;
-    height:594px;
+    height: 100%;
+    min-height: 300px;
 }
 button{
     width:100%;
-    margin: 12px 0px;
 }
 .secondarySection h3{
     margin-bottom: 16px;
@@ -37,6 +46,10 @@ button{
 }
 .secondarySection p{
     text-align: center;
+}
+#output-area{
+    word-break: break-all;
+
 }
 
 h1 img{
@@ -68,7 +81,6 @@ textarea{
     color: var(--dark-blue);
 }
 
-
 button{
     border:2px solid var(--dark-blue);
     background-color:transparent;
@@ -87,12 +99,13 @@ button{
     flex-flow: column;
     justify-content: space-between;
     background-color: white;
-    padding: 32px;
     border-radius: 32px;
     font-size: var(--medium);
     color: var(--black);
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     min-height: 186px;
+    padding: 32px;
+    margin-top: 60px
 }
 #primary-button{
     color: white;
@@ -102,8 +115,9 @@ button{
     display: none;
     width: 336px;
     justify-self: center;
-    margin: auto;
+    margin: 0 auto;
 }
+
 .secondarySection h3{
     font-weight: 700;
     line-height: 28.8px;
@@ -127,37 +141,42 @@ button{
 @media (min-width: 900px){
     body{
         display: flex;
-        margin: 20px auto;
     }
     header{
-        margin:0px 80px;
-        width: 120px;;
+        margin-left: 40px;
     }
 
     main{
         width: 100%;
         display: flex;
-        justify-content: space-between;
-
+        height: 100%;
     }
     main section{
         display: flex;
         flex-flow: column;
     }
     .mainSection{
+        height: 100%;
+        justify-content: space-between;
         width: 100%;
-        padding: 30px 0px;
     }
-    .mainSection textarea{
-        margin-top: 168px;
+    textarea{
+        margin-top: 138px;
+        margin-bottom: 16px;
     }
+   .buttonsContainer{
+       margin-bottom: 32px;
+
+   } 
     .secondarySection{
         min-width: 400px;
-        margin:0px 80px;
+        height: 100%;
+        width: 400px;
+        margin-left: 80px;
+        margin-top: 0px;
 
     }
     .secondarySection img{
         display: block;
-        margin-top: 60%;
     }
 }
