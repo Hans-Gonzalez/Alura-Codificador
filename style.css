@@ -1,0 +1,163 @@
+/**VARIABLES**/
+:root{
+    --main-background:#F3F5FC;
+    --dark-blue:#0A3871;
+    --light-blue:#D8DFE8;
+    --black:#343A40;
+
+
+
+    --big:32px;
+    --medium:24px;
+    --normal:16px;
+    --small:12px;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.mainSection p{
+    font-size: var(--small);
+    color: var(--black);
+}
+.mainSection textarea{
+    width: 100%;
+    height:594px;
+}
+button{
+    width:100%;
+    margin: 12px 0px;
+}
+.secondarySection h3{
+    margin-bottom: 16px;
+    text-align: center;
+}
+.secondarySection p{
+    text-align: center;
+}
+
+h1 img{
+    height: 48px;
+    margin: 24px 16px;
+}
+body{
+    background-color: var(--main-background);
+}
+#alert-container{
+    display: flex;
+    align-items: center;
+}
+
+#alert-container img{
+    height: 16px;
+    margin-right: 8px;
+}
+textarea{
+    line-height: 48px;
+    background-color: transparent;
+    color: var(--dark-blue);
+    font-size: var(--big);
+    resize: none;
+    border: none;
+    outline: none;
+}
+::placeholder {
+    color: var(--dark-blue);
+}
+
+
+button{
+    border:2px solid var(--dark-blue);
+    background-color:transparent;
+    border-radius: 24px;
+    font-size: var(--normal);
+    font-weight: 400;
+    padding: 24px;
+}
+
+:hover button{
+    cursor: pointer;
+}
+
+.secondarySection{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 32px;
+    border-radius: 32px;
+    font-size: var(--medium);
+    color: var(--black);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    min-height: 186px;
+}
+#primary-button{
+    color: white;
+    background-color: var(--dark-blue);
+}
+.secondarySection img{
+    display: none;
+    width: 336px;
+    justify-self: center;
+    margin: auto;
+}
+.secondarySection h3{
+    font-weight: 700;
+    line-height: 28.8px;
+}
+.secondarySection p{
+    font-size: var(--normal);
+    line-height: 24px;
+}
+#copy-button{
+    display: none;
+}
+
+@media (min-width: 700px) {
+       .buttonsContainer{
+        display: flex
+       }
+       #primary-button{
+        margin-right: 24px;
+       }
+}
+@media (min-width: 900px){
+    body{
+        display: flex;
+        margin: 20px auto;
+    }
+    header{
+        margin:0px 80px;
+        width: 120px;;
+    }
+
+    main{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    main section{
+        display: flex;
+        flex-flow: column;
+    }
+    .mainSection{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .mainSection textarea{
+        margin-top: 168px;
+    }
+    .secondarySection{
+        min-width: 400px;
+        margin:0px 80px;
+
+    }
+    .secondarySection img{
+        display: block;
+        margin-top: 60%;
+    }
+}
