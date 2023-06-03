@@ -49,6 +49,7 @@ button{
 }
 #output-area{
     word-break: break-all;
+    margin-top: auto;
 
 }
 
