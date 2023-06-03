@@ -1,4 +1,5 @@
 # Proyecto de Encriptación de Texto
+![projecto template](https://user-images.githubusercontent.com/91544872/157673573-5e781ce9-601c-4ea3-9db1-b60bebf717aa.png)
 
 Este proyecto fue desarrollado durante la primera parte del programa Alura One, impartido por Alura y Oracle. El objetivo principal de este proyecto es crear una aplicación web que te permita encriptar y desencriptar textos, brindándote la capacidad de intercambiar mensajes secretos con otras personas que conozcan el método de encriptación utilizado.
 
