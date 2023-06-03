@@ -2,6 +2,8 @@
 
 Este proyecto fue desarrollado durante la primera parte del programa Alura One, impartido por Alura y Oracle. El objetivo principal de este proyecto es crear una aplicación web que te permita encriptar y desencriptar textos, brindándote la capacidad de intercambiar mensajes secretos con otras personas que conozcan el método de encriptación utilizado.
 
+[Link de el proyecto](https://hans-gonzalez.github.io/Alura-Codificador/).
+
 ## Descripción del Desafío
 
 - La aplicación tiene la capacidad de encriptar y desencriptar textos.
